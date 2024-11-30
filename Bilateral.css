@@ -1,0 +1,126 @@
+body{
+    background-image: url("background.jpg");
+    background-size:auto;
+}
+.header{
+    width: 1280px;
+    position: fixed;
+    top:0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Kode CSS Side Bar */
+/* Left column */
+.columnleft{
+    margin: 150px 0px;
+    width: 15%;
+    float: left;
+    padding: 10px;
+    margin-bottom: 0;
+}
+/* Kode CSS Middle Bar */
+.columnmiddle{
+    margin: 150px 0px;
+    width: 55%;
+    float: left;
+    padding: 10px;
+    margin-bottom: 0;
+}
+.columnright{
+    width: 25%;
+    margin: 150px 0px;
+    float: left;
+    padding: 10px;
+    margin-bottom: 0;
+}
+p{
+    color: black;
+    background-color:rgb(175, 136, 185);
+    border-radius: 10px;
+    padding: 10px 10px 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p:hover{
+    background-color: coral;
+    color: white;
+    transition: 0.5s ease;
+}
+.manfaatlist li{
+    list-style-type: none;
+    list-style-position: inside;
+    background-color: rgb(39, 150, 113);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    font-size: 18.5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contohlist li{
+    list-style-type: none;
+    list-style-position: inside;
+    background-color: rgb(39, 150, 113);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    font-size: 21px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.manfaatlist li:hover{
+    background-color: rgb(39, 150, 113);
+    color: black;
+    transition: 0.5s ease;
+    border: transparent;
+    box-shadow: 0px 0px 5px 5px aquamarine;
+    font-size: 20px;
+}
+.contohlist li:hover{
+    background-color: rgb(39, 150, 113);
+    color: black;
+    transition: 0.5s ease;
+    border: transparent;
+    box-shadow: 0px 0px 5px 5px aquamarine;
+    font-size: 23px;
+}
+/* Kode CSS Footer */
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    color: rgb(175, 136, 185);
+    background-color: rgb(71, 55, 75);
+    border-radius: 25px;
+    font-family: cursive;
+}
+h2:hover{
+    font-size: 25px;
+    text-shadow: 2px 3px 5px black;
+    transition: 0.3s ease;
+}
+.galeri{
+    width: 140px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 5px;
+}
+.button{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.button:hover{
+    filter: drop-shadow(0 8px 15px orange);
+    transition: filter 0.3s ease;   
+}

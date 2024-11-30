@@ -1,0 +1,118 @@
+body{
+    background-image: url("background.jpg");
+    background-size:auto;
+}
+.header{
+    width: 1280px;
+    position: fixed;
+    top:0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Kode CSS Bars */
+
+/* Kode CSS Middle Bar */
+.columnmiddle{
+    margin: 150px 0px;
+    width: 50%;
+    float: left;
+    padding: 10px;
+    margin-bottom: 0;
+}
+/* Kode CSS Bar Kanan*/
+.columnright{
+    width: 45%;
+    margin: 150px 0px;
+    float: left;
+    padding: 10px;
+    margin-bottom: 0;
+}
+p{
+    color: black;
+    background-color:rgb(175, 136, 185);
+    border-radius: 10px;
+    padding: 10px 10px 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p:hover{
+    background-color: gainsboro;
+    color:black;
+    transition: 0.5s ease;
+}
+.manfaatlist li {
+    list-style-type: none;
+    list-style-position: inside;
+    background-color: rgb(39, 150, 113);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px double aquamarine;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contohlist li {
+    list-style-type: none;
+    list-style-position: inside;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    border: 10px double peachpuff;
+    border-radius: 10px;
+    font-size: 19.525px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: coral;
+}
+.contohlist li:hover{
+    background-color: peachpuff;
+    color: black;
+    border:10px double coral;
+    transition: 0.5s ease;
+}
+.manfaatlist li:hover{
+    background-color: aquamarine;
+    color: black;
+    border: 10px double rgb(39, 150, 113);
+    transition: 0.5s ease;
+}
+/* Kode CSS Footer */
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    color: white;
+    background-color: orange;
+    border-radius: 25px;
+    font-family: cursive;
+}
+h2:hover{
+    font-size: 25px;
+    text-shadow: 2px 3px 5px rgb(192, 128, 9);
+    transition: 0.3s ease;
+}
+.button{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.button:hover{
+    filter: drop-shadow(0 8px 15px orange);
+    transition: filter 0.3s ease;   
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.asean{
+    width: 200px;
+    border-radius: 10px;
+}

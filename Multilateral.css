@@ -1,0 +1,143 @@
+html{
+    background-color: rgb(126, 113, 113);
+}
+body{
+    background-image: url("background.jpg");
+    background-size:auto;
+}
+.header{
+    width: 1280px;
+    position: fixed;
+    top:0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Kode CSS Bars */
+
+/* Kode CSS Middle Bar */
+.columnmiddle{
+    margin: 150px 0px;
+    width: 50%;
+    float: left;
+    padding: 10px;
+    margin-bottom: 0;
+}
+/* Kode CSS Bar Kanan*/
+.columnright{
+    width: 45%;
+    margin: 150px 0px;
+    float: left;
+    padding: 10px;
+    margin-bottom: 0;
+}
+p{
+    color: black;
+    background-color:coral;
+    border-radius: 10px;
+    padding: 10px 10px 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p:hover{
+    box-shadow: 5px 5px 5px black;
+    transition: 0.5s ease;
+    font-size: 21px;
+}
+.manfaatlist li{
+    list-style-type: none;
+    list-style-position: inside;
+    background-color: cornsilk;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 0;
+    border: 5px solid aquamarine;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contohlist li{
+    list-style-type: none;
+    list-style-position: inside;
+    color:black;
+    padding: 10px;
+    box-shadow: 2px 3px 5px purple;
+    border-radius: 10px;
+    font-size: 19.525px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(175, 136, 185);
+    margin: 15px;
+    margin-bottom: 0;
+}
+.contohlist li:hover{
+    background-color: cornsilk;
+    color: purple;
+    box-shadow: 5px 5px 5px black;
+    font-size: 22px;
+    transition: 0.5s ease;
+}
+.manfaatlist li:hover{
+    background-color: cornsilk;
+    color: black;
+    border: 10px solid rgb(39, 150, 113);
+    transition: 0.5s ease;
+}
+/* Kode CSS Footer */
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    color: rgb(39, 150, 113);
+    background-color: cornsilk;
+    border-radius: 25px;
+    font-family: cursive;
+}
+h2:hover{
+    color: cornsilk;
+    background-color: rgb(39, 150, 113);
+    font-size: 25px;
+    text-shadow: 2px 3px 5px black;
+    transition: 0.3s ease;
+}
+.button{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.button:hover{
+    filter: drop-shadow(0 8px 15px orange);
+    transition: filter 0.3s ease;   
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+.polaroid {
+    width: 50%;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 2px 3px 5px black;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.container {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 0 0 25px 25px;
+}
+.pola{
+    display: block;
+    height: auto;
+    border-radius: 25px 25px 0 0;
+}

@@ -1,0 +1,106 @@
+body{
+    background-image: url("background.jpg");
+    background-size:auto;
+}
+.header{
+    width: 1280px;
+    position: fixed;
+    top:0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    color: black;
+    background-color:rgb(175, 136, 185);
+    border-radius: 10px;
+    padding: 10px 10px 10px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p:hover{
+    background-color: rgb(39, 150, 113);
+    color:white;
+    transition: 0.5s ease;
+    box-shadow: 2px 3px 5px black;
+    font-size: 21px;
+}
+/* Kode CSS Footer */
+.footer{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    color: rgb(39, 150, 113);
+    background-color: cornsilk;
+    border-radius: 25px;
+    font-family: cursive;
+}
+h2:hover{
+    color: cornsilk;
+    background-color: rgb(39, 150, 113);
+    font-size: 25px;
+    text-shadow: 2px 3px 5px black;
+    transition: 0.3s ease;
+}
+.button{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.button:hover{
+    filter: drop-shadow(0 8px 15px orange);
+    transition: filter 0.3s ease;   
+}
+.sdgs{
+    width: 450px;
+    height: 350px;
+    border-radius: 25px;
+    margin: 15px;
+}
+.sdgs:hover{
+    box-shadow: 5px 5px 5px black;
+    transition: 0.5s ease;
+    width: 475px;
+    height: 375px;
+}
+.column{
+    margin: 150px 0px;
+    width: 99%;
+    float: left;
+    padding: 10px;
+    align-items: center;
+}
+.polaroid {
+    flex: 0 1 auto;
+    width: 15%;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 2px 3px 5px black;
+    margin: 15px auto;
+    margin-bottom: 5px;
+}
+.container {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 0 0 25px 25px;
+}
+.pola{
+    height: auto;
+    border-radius: 25px 25px 0 0;
+}
+.polaroid-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.polaroid:hover{
+    width: 15.5%;
+    transition: 0.3s ease;
+}

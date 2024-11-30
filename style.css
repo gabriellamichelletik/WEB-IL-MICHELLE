@@ -1,0 +1,134 @@
+html{
+    background-color: cornsilk;
+}
+body{
+    background-image: url("background.jpg");
+    background-size:auto;
+}
+.header{
+    width: 1280px;
+    position: fixed;
+    top:0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Kode CSS Navigator */
+ul{
+    list-style-type: none;
+    background-color:black;
+    padding: 0px 0px;
+    margin: 150px 0px;
+    position: fixed;
+    width: 1280px;
+    height: 60px;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    width: 160px;
+    padding: 10px 24px;
+}
+ul li a{
+    padding: 10px 0px;
+}
+/* Kode CSS Dropdown */
+ul li ul.dropdown{
+    position: absolute;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background:transparent;
+}
+ul li:hover ul.dropdown{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+/* Kode CSS Side Bar */
+/* Left column */
+.columnside{
+    margin: 200px 0px;
+    width: 22%;
+    float: left;
+    padding: 15px;
+    margin-bottom: 0;
+}
+/* Kode CSS Middle Bar */
+.columnmiddle{
+    margin: 200px 0px;
+    width: 73%;
+    float: left;
+    padding: 15px;
+    margin-bottom: 0;
+}
+p{
+    color: white;
+    background-color:rgb(73, 186, 148);
+    border-radius: 10px;
+    padding: 10px 10px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p:hover{
+    background-color: coral;
+    color: black;
+}
+.galerip{
+    background-color: rgb(175, 136, 185);
+    background-size: auto;
+}
+.galerip:hover{
+    background-color:rgb(208, 183, 214);
+    transition: 0.3s ease;
+}
+
+/* Kode CSS Footer */
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: coral;
+    background-color: peachpuff;
+    border-radius: 25px;
+    font-family: cursive;
+}
+h1:hover{
+    color: coral;
+    font-size: 35px;
+    transition: 0.5s ease;
+    text-shadow: 2px 3px 5px black;
+}
+.galeri{
+    width: 237px;
+    height: 158px;
+    border-radius: 20px;
+    align-items: center;
+    padding: 10px;
+}
+.button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    filter: drop-shadow(0 8px 15px orange);
+    transition: filter 0.3s ease;   
+}
+.dropbtn:hover{
+    filter:drop-shadow(0 8px 15px lightpink);
+    transition: filter 0.3s ease; 
+}

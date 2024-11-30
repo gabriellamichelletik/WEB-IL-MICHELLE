@@ -1,0 +1,71 @@
+body {
+    background-image: url("background.jpg");
+    background-size: auto;
+}
+
+.header {
+    width: 1280px;
+    position: fixed;
+    top: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    color: orangered;
+    background-color: peachpuff;
+    border-radius: 10px;
+    padding: 20px 20px 20px;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 20px;
+}
+
+ul li:hover {
+    background-color: peachpuff;
+    transition: 0.3s ease;
+    font-size: 21pxpx;
+    box-shadow: 2px 3px 5px orange;
+    padding: 25px 25px 25px;
+}
+.footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    color: white;
+    background-color:hotpink;
+    border-radius: 25px;
+    font-family: cursive;
+}
+
+h2:hover {
+    font-size: 25px;
+    text-shadow: 2px 3px 5px black;
+    transition: 0.3s ease;
+}
+
+.button {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.button:hover {
+    filter: drop-shadow(0 8px 15px orange);
+    transition: filter 0.3s ease;
+}
+
+.column {
+    margin: 150px;
+    margin-bottom: 20px;
+}

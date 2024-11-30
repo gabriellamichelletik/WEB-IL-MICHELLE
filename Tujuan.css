@@ -1,0 +1,122 @@
+body{
+    background-image: url("background.jpg");
+    background-size:auto;
+}
+.header{
+    width: 1280px;
+    position: fixed;
+    top:0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.column{
+    float: left;
+    width: 31.5%;
+    padding: 10px;
+    margin-bottom: 0;
+}
+p{
+    color: black;
+    background-color:coral;
+    border-radius: 10px;
+    padding: 15px 15px 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p:hover{
+    background-color:white;
+    color:black;
+    transition: 0.3s ease;
+    font-size: 21px;
+}
+.footer{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: rgb(175, 136, 185);
+    background-color: rgb(71, 55, 75);
+    border-radius: 25px;
+    font-family: cursive; 
+}
+h1:hover{
+    font-size: 35px;
+    text-shadow: 2px 3px 5px black;
+    transition: 0.3s ease;
+}
+h2{
+    color: aquamarine;
+    background-color: rgb(56, 155, 122);
+    border-radius: 25px;
+    font-family: cursive;
+}
+h2:hover{
+    font-size: 25px;
+    text-shadow: 2px 3px 5px black;
+    transition: 0.3s ease;
+}
+h3{
+    color: rgb(71, 55, 75);
+    background-color: rgb(175, 136, 185);
+    border-radius: 25px;
+    font-family: cursive;
+}
+h3:hover{
+    font-size: 20px;
+    color: white;
+    transition: 0.3s ease;
+}
+.button{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.button:hover{
+    filter: drop-shadow(0 8px 15px orange);
+    transition: filter 0.3s ease;   
+}
+.a{
+    margin: 160px 0px;
+}
+.columnnew{
+    clear: both;
+    width: 99%;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.progress{
+    width: 250px;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 2px 3px 5px black;
+}
+.b{
+    color: black;
+    background-color: rgb(175, 136, 185);
+    padding: 20px 20px;
+}
+.b:hover{
+    box-shadow: 3px 3px 5px black;
+    background-color: coral;
+    font-size: 21px;
+}
+.foto{
+    border-radius: 25px;
+    width: 85%;
+    margin-left: 15px;
+    border: 5px solid black;
+    height: 225px;
+}
+.foto:hover{
+    height: 250px;
+    width: 87%;
+    transition: 0.3s ease;
+    border: 10px solid black;
+}
